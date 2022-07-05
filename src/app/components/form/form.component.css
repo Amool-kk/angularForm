@@ -1,0 +1,93 @@
+.form{
+    padding: 20px 30px 70px;
+    background-color: white;
+    opacity: 0.9;
+}
+.remark{
+    color:  red;
+}
+
+.form .questions .form-items{
+    padding-bottom: 35px;
+    padding-top: 35px;
+    position: relative;
+}
+
+.form .questions .form-items .ans{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.stars{
+    font-size: 45px;
+}
+
+
+.form .questions .form-items .ans input{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #a6a6a6;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    -webkit-transition: border-color .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out;
+    -moz-transition: border-color .15s ease-in-out;
+    transition: border-color .15s ease-in-out;
+    width: 94%;
+}
+
+.form .questions .form-items .ans .labels{
+    display: flex;
+}
+
+.form .questions .form-items .ans .labelName{
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.form .questions .form-items .ans .checkbox input{
+    width: 20px;
+}
+
+
+.form .form-items .btn button{
+    padding: 8px 40px;
+    background-color: #053870;
+    color: white;
+    outline: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.form .form-items .btn span{
+    font-size: 12px;
+}
+
+.form .form-items .btn button:hover{
+    background-color: #042B57;
+}
+
+.footer{
+    background-color: rgba(244,244,244,.8);
+    padding: 20px 100px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer{
+        padding: 10px 10px;
+    }
+    .stars{
+        font-size: 8vw;
+    }
+}

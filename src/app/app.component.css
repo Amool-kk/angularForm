@@ -1,0 +1,11 @@
+.containers{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.containers .formArea{
+    max-width: 850px;
+    margin: auto;
+}

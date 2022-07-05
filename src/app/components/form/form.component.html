@@ -1,0 +1,147 @@
+<app-header></app-header>
+<div class="form">
+    <p><span class="remark">*</span> Required</p>
+
+    <div class="questions">
+        <div class="form-items">
+            <div class="question">
+                <h3>1. Name of participant <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <input type="text" placeholder="Enter your answer">
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>2. Participant for ? <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <div class="office-form-question-choice">
+                    <div class="checkbox">
+                        <label class="labels">
+                            <input aria-checked="false" type="checkbox" value="SIEO">
+                            <span class="labelName">
+                                <span class="text-format-content">SIEO</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="office-form-question-choice">
+                    <div class="checkbox">
+                        <label class="labels">
+                            <input aria-checked="false" type="checkbox" value="SIMO">
+                            <span class="labelName">
+                                <span class="text-format-content">SIMO</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="office-form-question-choice">
+                    <div class="checkbox">
+                        <label class="labels">
+                            <input aria-checked="false" type="checkbox" value="SISO">
+                            <span class="labelName">
+                                <span class="text-format-content">SISO</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="office-form-question-choice">
+                    <div class="checkbox">
+                        <label class="labels">
+                            <input aria-checked="false" type="checkbox" value="Grads Olympiad">
+                            <span class="labelName">
+                                <span class="text-format-content">Grads Olympiad</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="office-form-question-choice">
+                    <div class="checkbox">
+                        <label class="labels">
+                            <input aria-checked="false" type="checkbox" value="Finance Olympiad">
+                            <span class="labelName">
+                                <span class="text-format-content">Finance Olympiad</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>3. How was the quality of the question asked ? <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <ngb-rating class="stars" [(rate)]="selected1" (hover)="hovered=$event" (leave)="hovered=0"
+                    [readonly]="readonly"></ngb-rating>
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>4. How was the ease of giving the Olympiad ? <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <ngb-rating class="stars" [(rate)]="selected2" (hover)="hovered=$event" (leave)="hovered=0"
+                    [readonly]="readonly"></ngb-rating>
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>5. Did you like the process of report generation? <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <ngb-rating class="stars" [(rate)]="selected3" (hover)="hovered=$event" (leave)="hovered=0"
+                    [readonly]="readonly"></ngb-rating>
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>6. How ws the customer service, if you used any? <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <ngb-rating class="stars" [(rate)]="selected4" (hover)="hovered=$event" (leave)="hovered=0"
+                    [readonly]="readonly"></ngb-rating>
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>7. Anything that we need to improve. <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <input type="text" placeholder="Enter your answer">
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>8. What did you like the best about us? <span class="remark">*</span></h3>
+            </div>
+            <div class="ans">
+                <input type="text" placeholder="Enter your answer">
+            </div>
+        </div>
+        <div class="form-items">
+            <div class="question">
+                <h3>9. How likely are you to participate in our Olympiad in the future? <span class="remark">*</span>
+                </h3>
+            </div>
+            <div class="ans">
+                <ngb-rating class="stars" [(rate)]="selected5" (hover)="hovered=$event" (leave)="hovered=0"
+                    [readonly]="readonly"></ngb-rating>
+            </div>
+        </div>
+    </div>
+    <div class="form-items">
+        <div class="btn">
+            <button class="submit">Submit</button>
+
+            <span>Never give out your password. <a href="#">Report abuse</a></span>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p>This content is created by the owner of the form. The data you submit will be sent to the form owner. Microsoft
+        is not responsible for the privacy or security practices of its customers, including those of this form owner.
+        Never give out your password.</p>
+    <p></p>
+</div>
